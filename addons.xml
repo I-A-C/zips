@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.exodusredux" version="1.0.4" name="Exodus Redux" provider-name="I-A-C">
+<addon id="plugin.video.exodusredux" version="1.0.5" name="Exodus Redux" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodusredux" />
@@ -30,7 +30,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.6" provider-name="I-A-C">
+<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.7" provider-name="I-A-C">
 	<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
 	<dir>
         <info compressed="false">https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml</info>
@@ -50,7 +50,7 @@
 	</extension>
 </addon>
 
-<addon id="script.exodusredux.artwork" version="1.0.1" name="Exodus Redux Artwork" provider-name="I-A-C">
+<addon id="script.exodusredux.artwork" version="1.0.2" name="Exodus Redux Artwork" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -62,7 +62,7 @@
 	</extension>
 </addon>
 
-<addon id="script.exodusredux.metadata" version="1.0.1" name="Exodus Redux Metadata" provider-name="I-A-C">
+<addon id="script.exodusredux.metadata" version="1.0.2" name="Exodus Redux Metadata" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -89,7 +89,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.exodusredux" name="Exodus Redux Module" version="1.0.5" provider-name="I-A-C">
+<addon id="script.module.exodusredux" name="Exodus Redux Module" version="1.0.6" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
@@ -101,7 +101,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.lambdascrapers" name="Lambdascrapers Module" version="1.5.3" provider-name="I-A-C">
+<addon id="script.module.lambdascrapers" name="Lambdascrapers Module" version="1.6.0" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
@@ -110,6 +110,7 @@
 	<extension point="xbmc.python.pluginsource" library="lib/default.py">
 		<provides>executable</provides>
 	</extension>
+	<extension point="xbmc.service" library="CleanupService.py" start="startup" />
 		<extension point="xbmc.addon.metadata">
 			<platform>all</platform>
 			<summary lang="en">Lambdascrapers Module</summary>
