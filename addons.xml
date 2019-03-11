@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.exodusredux" version="2.0.1" name="Exodus Redux" provider-name="I-A-C">
+<addon id="plugin.video.exodusredux" version="2.0.2" name="Exodus Redux" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodusredux" />
@@ -95,7 +95,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.1" provider-name="I-A-C">
+<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.2" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
