@@ -31,29 +31,34 @@
 	</extension>
 </addon>
 
-<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.8" provider-name="I-A-C">
-	<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
-	<dir>
+<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.9" provider-name="I-A-C">
+    <extension point="xbmc.addon.repository" name="Exodus Redux Repo">
+    <dir>
         <info compressed="false">https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/I-A-C/zips/master/</datadir>
-	</dir>
+    </dir>
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
     </dir>
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-	</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Exodus Redux is a educational add-on. We do not host any of the contents streamed.</summary>
-		<description lang="en"></description>
-		<platform>all</platform>
-	</extension>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/123Venom/zips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/123Venom/zips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/123Venom/zips/master/</datadir>
+    </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Exodus Redux is a educational add-on. We do not host any of the contents streamed.</summary>
+        <description lang="en"></description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="script.exodusredux.artwork" version="1.0.2" name="Exodus Redux Artwork" provider-name="I-A-C">
@@ -95,7 +100,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.3" provider-name="I-A-C">
+<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.4" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
